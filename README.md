@@ -26,7 +26,7 @@ The Dockerfile copies a custom `sonar.properties` file to the SonarQube configur
 ## Example Usage
 
 ```bash
-docker run -e DATABASE_USERNAME=myuser \
+docker run  -e DATABASE_USERNAME=myuser \
            -e DATABASE_PASSWORD=mypassword \
            -e DATABASE_HOST=db.example.com \
            -e DATABASE_PORT=5432 \
